@@ -1,9 +1,13 @@
 {
+  "homepage": "https://truongnx081.github.io/test1",
   "name": "pystravel",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeloy": "npm run build",
+  "deploy": "gh-pages -d dist",
+    
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
